@@ -1,0 +1,195 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+header {
+   background-color: white;
+   padding: 10px 0;
+}
+
+nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+nav .logo img {
+   height: 50px;
+   width: 100px;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+}
+
+nav ul li {
+   margin-left: 20px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+  
+}
+nav ul li a:hover{
+   color: red;
+}
+
+header{
+  background-color: #fde8e6;
+   padding: 50px;
+}
+
+header h1 {
+   margin: 10px 0;
+   font-size: 2em;
+   color: #2b2d31;
+}
+header p {
+   margin: 5px 0;
+   color: #555;
+}
+/* Tabs Section */
+/* Container for the tabs and content */
+.container {
+   display: flex;
+   width: 80%;
+   margin: 0 auto;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+/* Tabs Section */
+.tabs {
+   display: flex;
+   flex-direction: column;
+   width: 40%; /* Adjust the width of the tabs section */
+   margin-right: 20px; /* Space between tabs and content */
+   align-self: start;
+}
+
+.tab {
+   padding: 20px;
+   border: 2px solid #ccc; /* Border around each tab */
+   border-radius: 12px; /* Rounded corners for each tab */
+   margin-bottom: 0; /* Removed space between tabs */
+   background-color: #ffffff; /* Background color for tabs */
+   border-top: none; /* Remove the top border except for the first tab */
+   cursor: pointer; /* Pointer cursor on hover */
+}
+
+.tab:first-child {
+   border-top: 1px solid #ccc; /* Keep top border for the first tab */
+}
+
+.tab h2 {
+   margin: 0;
+   font-size: 18px;
+   font-weight: bold;
+   text-align: left;
+}
+
+/* Tab Content Section */
+.tab-content {
+   width: 70%; /* Adjust the width of the content section */
+   padding: 20px;
+   border-radius: 12px; /* Rounded corners for the content section */
+   background-color: #f9f9f9; /* Background color for content */
+   padding: 10px;
+}
+.tab-content h2{
+   margin: 10px 0;
+   font-size: 30px;
+}
+
+.footer {
+   background-color: #e94154; /* Red background color */
+   color: #ffffff; /* White text color */
+   padding: 40px 20px;
+}
+
+.footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1200px;
+   margin: 0 auto;
+   
+}
+
+.footer-logo {
+   max-width: 250px;
+}
+
+.footer-logo img {
+   width: 120px; /* Adjust as needed */
+}
+
+.footer-logo p {
+   margin-top: 10px;
+   font-size: 14px;
+   line-height: 1.6;
+}
+
+.footer-reference {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+
+.footer-links div {
+   margin-right: 40px;
+}
+
+.footer-links h3 {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.footer-links ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.footer-links ul li {
+   margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+.footer-social {
+   text-align: right;
+}
+
+.footer-social ul {
+   list-style-type: none;
+   padding: 0;
+   display: flex;
+   gap: 10px;
+   margin-bottom: 10px;
+}
+
+.footer-social ul li {
+   display: inline;
+}
+
+.footer-social ul li a img {
+   width: 24px; /* Adjust the size of social icons */
+}
+
+.
+
